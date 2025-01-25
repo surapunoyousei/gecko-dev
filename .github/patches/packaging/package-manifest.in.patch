@@ -1,0 +1,16 @@
+diff --git a/browser/installer/package-manifest.in b/browser/installer/package-manifest.in
+index 861ba1c484..83f8d4cf87 100644
+--- a/browser/installer/package-manifest.in
++++ b/browser/installer/package-manifest.in
+@@ -196,6 +196,11 @@
+ @RESPATH@/chrome/remote.manifest
+ #endif
+ 
++; [Noraneko Files]
++@RESPATH@/chrome/noraneko.manifest
++@RESPATH@/chrome/noraneko@JAREXT@
++@RESPATH@/browser/buildid2
++
+ ; [Extensions]
+ @RESPATH@/components/extensions-toolkit.manifest
+ @RESPATH@/browser/components/extensions-browser.manifest
